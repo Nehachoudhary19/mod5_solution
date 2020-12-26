@@ -9,7 +9,8 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
+body 
+{
   margin: 0;
 }
 article,
@@ -24,17 +25,20 @@ main,
 menu,
 nav,
 section,
-summary {
+summary 
+{
   display: block;
 }
 audio,
 canvas,
 progress,
-video {
+video 
+{
   display: inline-block;
   vertical-align: baseline;
 }
-audio:not([controls]) {
+audio:not([controls]) 
+{
   display: none;
   height: 0;
 }
@@ -71,13 +75,13 @@ small {
   font-size: 80%;
 }
 sub,
-sup {
+sub {
   position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
-sup {
+sub {
   top: -.5em;
 }
 sub {
@@ -218,7 +222,7 @@ th {
 
     page-break-inside: avoid;
   }
-  thead {
+  thread {
     display: table-header-group;
   }
   tr,
